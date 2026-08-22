@@ -1,0 +1,10 @@
+{
+  "name": "3D Scanner",
+  "description": "A premium minimal web application for 3D Head & Face Scanning.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

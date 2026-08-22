@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@utility pt-safe-top {
+  padding-top: env(safe-area-inset-top, 1.5rem);
+}
+@utility pb-safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 1.5rem);
+}
